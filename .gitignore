@@ -1,0 +1,22 @@
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+
+# Virtual environments and local config
+.env
+.venv/
+venv/
+
+# Large reproducible datasets and generated training files
+data/
+download_amazon_large.py
+
+# Trained artifacts and intermediate model outputs
+models/
+
+# Common ML artifact types
+*.arrow
+*.parquet
+*.bin
+*.pkl
+*.npy
